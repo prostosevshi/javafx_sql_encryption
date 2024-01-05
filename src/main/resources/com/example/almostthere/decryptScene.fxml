@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.almostthere.decryptSceneController">
+   <children>
+      <Button fx:id="btnBack" layoutX="107.0" layoutY="313.0" mnemonicParsing="false" onAction="#onBackBtnClick" text="Back" />
+      <Button fx:id="btnGetResult" layoutX="355.0" layoutY="168.0" mnemonicParsing="false" onAction="#onGetResultBtnClick" text="Get result" />
+      <TextField layoutX="333.0" layoutY="61.0" promptText="Enter your text..." />
+      <TextField layoutX="333.0" layoutY="117.0" promptText="Enter your text..." />
+      <TextField editable="false" layoutX="333.0" layoutY="224.0" promptText="Your resilt will be here..." />
+      <Label layoutX="201.0" layoutY="65.0" text="Your encrypted string:" />
+      <Label layoutX="269.0" layoutY="121.0" text="Your key:" />
+      <Label layoutX="258.0" layoutY="228.0" text="Your result:" />
+   </children>
+</Pane>
